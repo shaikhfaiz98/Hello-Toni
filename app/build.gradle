@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.toni.hellotoni'
-    compileSdk 34
+    compileSdk 35 // Changed from 34 to 35
 
     defaultConfig {
         applicationId "com.toni.hellotoni"
         minSdk 24
-        targetSdk 34
+        targetSdk 34  // This can stay at 34 for now
         versionCode 1
         versionName "1.0"
 
